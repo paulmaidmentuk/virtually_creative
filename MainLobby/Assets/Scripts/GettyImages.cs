@@ -37,7 +37,6 @@ public class GettyImages : MonoBehaviour {
     void Update () {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            Debug.Log("ahoj");
             DownloadImage();
         }
     }
